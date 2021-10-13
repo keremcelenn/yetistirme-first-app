@@ -15,4 +15,5 @@ import HomeScreen from './CoreComponents/HomeScreen';
 import ShoppingList from './CoreComponents/ShoppingList'
 
 //Yorum
+//Pull için ekleme
 AppRegistry.registerComponent(appName, () => HomeScreen);
