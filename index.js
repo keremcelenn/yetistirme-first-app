@@ -14,4 +14,4 @@ import App4 from './StylingLayout/App4';
 import HomeScreen from './CoreComponents/HomeScreen';
 import ShoppingList from './CoreComponents/ShoppingList'
 
-AppRegistry.registerComponent(appName, () => ShoppingList);
+AppRegistry.registerComponent(appName, () => HomeScreen);
