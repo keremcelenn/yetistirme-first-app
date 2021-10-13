@@ -14,4 +14,5 @@ import App4 from './StylingLayout/App4';
 import HomeScreen from './CoreComponents/HomeScreen';
 import ShoppingList from './CoreComponents/ShoppingList'
 
+//Yorum
 AppRegistry.registerComponent(appName, () => HomeScreen);
