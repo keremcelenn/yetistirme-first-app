@@ -13,7 +13,14 @@ import App3 from './StylingLayout/App3';
 import App4 from './StylingLayout/App4';
 import HomeScreen from './CoreComponents/HomeScreen';
 import ShoppingList from './CoreComponents/ShoppingList'
-
+import Shopping from './State/Shopping'
+import MainNavigation from './Navigation/MainNavigation'
+import MainNavigationTabs from './Navigation/MainNavigationTabs';
+import Counter from './CustomComponents/Counter'
+import CounterAdvanced from './CustomComponents/CounterAdvanced'
+import AsyncAwait from './APIRequest/AsyncAwait'
+import ShoppingListWithApi from './APIRequest/ShoppingListWithApi'
+import HarcamaTakip from './Harcama/HarcamaTakip'
 //Yorum
 //Pull için ekleme
-AppRegistry.registerComponent(appName, () => HomeScreen);
+AppRegistry.registerComponent(appName, () => HarcamaTakip);
